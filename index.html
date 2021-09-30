@@ -113,25 +113,27 @@
     
     <div class="container">
         <div class="mbr-section-head">
-            <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-5"><strong>كن أول عميل</strong></h3>
+            <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-5"><span id="sub_form_message"><strong>كن أول عميل</strong></span></h3>
             
         </div>
         <div class="row justify-content-center mt-4">
             <div class="col-lg-8 mx-auto mbr-form">
 <!--Formbuilder Form-->
-<form action="http://127.0.0.1:5000/test" method="POST" class="mbr-form form-with-styler mx-auto">
+<form action="javascript:subscription()" method="POST" class="mbr-form form-with-styler mx-auto">
 <div class="row">
 
 <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">Oops...! some problem!</div>
 </div>
 <div class="dragArea row">
 <div class="col-lg-4 col-md-12 col-sm-12 form-group mb-3" data-for="name">
-<input type="text" name="name" placeholder="الاسم" data-form-field="name" class="form-control display-7" required="required" value="" id="name-form8-e">
+<input type="text" name="name" placeholder="الاسم" data-form-field="name" required="required" class="form-control display-7" value="" id="name-form8-e">
 </div>
 <div class="col-lg-4 col-md-12 col-sm-12 form-group mb-3" data-for="email">
 <input type="email" name="email" placeholder="البريد الإلكتروني" data-form-field="email" class="form-control display-7" value="" id="email-form8-e">
 </div>
-<div class="col-lg-4 col-md-12 col-sm-12 mbr-section-btn align-center"><button type="submit" class="btn btn-primary display-4">أشتراك</button></div>
+<div class="col-lg-4 col-md-12 col-sm-12 mbr-section-btn align-center">
+<button type="submit" class="btn btn-primary display-4">أشتراك</button>
+</div>
 </div>
 </form><!--Formbuilder Form-->
 </div>
@@ -181,7 +183,9 @@
   <script src="assets/dropdown/js/navbar-dropdown.js"></script>
   <script src="assets/theme/js/script.js"></script>
   
-  <script src="assets/frontend/controller.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="assets/frontend/func.js"></script>
+<script src="assets/frontend/controller.js"></script>
   
 </body>
 </html>
