@@ -14,7 +14,7 @@ const page = segments.pop() || segments.pop();
 
 let APP_DOMAIN
 if (isLocalNetwork())
-    APP_DOMAIN = 'http://127.0.0.1:5000';
+    APP_DOMAIN = '';
 else
     APP_DOMAIN = 'https://app.jeet.sa';
 
