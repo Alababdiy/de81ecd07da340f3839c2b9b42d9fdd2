@@ -1,7 +1,7 @@
 if (['/','','index.html','index'].includes(page)){
     function subscription(){
         $.post(
-            '/email_subscription',
+            url('/email_subscription'),
             $('form').serialize(),
             function (data) {
                 console.log(data);
