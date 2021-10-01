@@ -55,7 +55,7 @@
                 </div>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                
+                <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="join.html">للشركات</a></li><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="about_us.html">من نحن</a></li></ul>
                 <div class="icons-menu">
                     <a class="iconfont-wrapper" href="#" target="_blank">
                         <span class="p-2 mbr-iconfont socicon-facebook socicon"></span>
@@ -167,7 +167,7 @@
         <div class="row justify-content-center mt-4">
             <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
 <!--Formbuilder Form-->
-<form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler mx-auto" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="jaLhml1e12pciqRxi6hyZ67MS9XxBssQyfsD2VvBfrjlDfiz0kheXKOEKHCHzTfHOySpcVfzCj06P7HvAwcl4oCcvbPUiZ8hgqacPyKoiR8E1iseGYPxw/s0ZRlaZZoy.miITwPoLCYXgIbmAxt1WTKBudVABfgUHSAkyFPRoNm1ZM3PXYkQS5JGah06IJTIxdw5U4WFNfALc98QL20b9DR1zVfLKBH6Mmh3+s9y8VBevdZYlSVspkx7h6n6cQM+/">
+<form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler mx-auto" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="wul07IWIetM0vWjzuA94542tG+OTmZxulNCvq4lpygqDIPdQmSAvmmi+SCtvgMiu5Uaxx56zIv+/bZxDziEANEXxr05MfQvixcHU/2/j15doAdP/0Tw+GgcY8G4vWgh9.B24jL5GQe6ovBuoFt8Dgy+yCRymyQtJbfhURcHu6VOpcrzBX+FyWmtcNxZco2P+ZvW2LhavBTrbzz9KIGYVdwX3UtDsfIMB3vjghCTIxY5fu6y3TGmy8c5xWlBopQJnu">
 <div class="">
 <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the form!</div>
 <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">Oops...! some problem!</div>
@@ -201,8 +201,9 @@
 <div class="col-lg-12 col-md-12 col-sm-12 form-group" data-for="license_number">
 <input type="text" name="license_number" placeholder="رقم السجل التجاري" data-form-field="license_number" required="required" class="form-control display-7" value="" id="license_number-form7-2">
 </div>
-<div data-for="license_file_text" class="col-lg-12 col-md-12 col-sm-12 form-group">
-<input type="url" name="license_file_text" placeholder="صورة من السجل التجاري" pattern="https://.*" data-form-field="license_file_text" required="required" class="form-control display-7" value="" id="license_file_text-form7-2">
+<div data-for="license_file" class="col-lg-12 col-md-12 col-sm-12 form-group">
+<label for="license_file-form7-2" class="form-control-label mbr-fonts-style display-7">صورة من السجل التجاري</label>
+<input type="file" name="license_file" placeholder="صورة من السجل التجاري" pattern="https://.*" data-form-field="license_file" required="required" class="form-control display-7" value="" id="license_file-form7-2">
 </div>
 <div data-for="license_issuing_date" class="col-lg-12 col-md-12 col-sm-12 form-group">
 <label for="license_issuing_date-form7-2" class="form-control-label mbr-fonts-style display-7">تاريخ اصدار السجل التجاري</label>
@@ -233,25 +234,22 @@
 <div data-for="phone" class="col-lg-12 col-md-12 col-sm-12 form-group mb-3">
 <input type="tel" name="phone" placeholder="رقم الجوال" data-form-field="phone" required="required" class="form-control display-7" value="" id="phone-form7-2">
 </div>
-<div data-for="identity_card_text" class="col-lg-12 col-md-12 col-sm-12 form-group">
-<input type="url" name="identity_card_text" placeholder="صورة من مستند اثبات هوية" pattern="https://.*" data-form-field="identity_card_text" required="required" class="form-control display-7" value="" id="identity_card_text-form7-2">
+<div data-for="identity_card" class="col-lg-12 col-md-12 col-sm-12 form-group">
+<label for="identity_card-form7-2" class="form-control-label mbr-fonts-style display-7">صورة من مستند اثبات هوية</label>
+<input type="file" name="identity_card" placeholder="صورة من مستند اثبات هوية" pattern="https://.*" data-form-field="identity_card" required="required" class="form-control display-7" value="" id="identity_card-form7-2">
 </div>
-<div data-for="proof_type" class="col-lg-12 col-md-12 col-sm-12 form-group">
+<div data-for="proof_type" class="col-lg-12 row radio_row">
 <div class="form-control-label">
-<label for="proof_type-form7-2" class="mbr-fonts-style display-7">نوع مستند اثبات الهوية</label>
 </div>
-    <div class="row radio_row">
 <div class="form-check">
-<input type="radio" name="proof_type" data-form-field="proof_type" class="form-check-input display-7" value="بطاقة هوية" checked="" id="proof_type-form7-2">
+<input type="radio" name="proof_type" data-form-field="proof_type" class="form-check-input display-7" value="بطاقة هوية" checked="checked" id="proof_type-form7-2">
 <label class="form-check-label display-7">بطاقة هوية</label>
 </div>
-        
 <div class="form-check">
 <input type="radio" name="proof_type" data-form-field="proof_type" class="form-check-input display-7" value="جواز" id="proof_type-form7-2">
 <label class="form-check-label display-7">جواز</label>
 </div>
 </div>
-    </div>
 <div data-for="id_issuing_date" class="col-lg-12 col-md-12 col-sm-12 form-group">
 <label for="id_issuing_date-form7-2" class="form-control-label mbr-fonts-style display-7">تاريخ اصدار اثبات الهوية</label>
 <input type="date" name="id_issuing_date" data-form-field="id_issuing_date" class="form-control display-7" value="2018-07-22" id="id_issuing_date-form7-2">
