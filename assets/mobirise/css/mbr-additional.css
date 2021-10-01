@@ -4915,6 +4915,35 @@ blockquote {
   text-align: left;
   line-height: 1.6;
 }
+.cid-sKCDYTKKcf {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
+}
+.cid-sKCDYTKKcf .mbr-iconfont {
+  display: block;
+  font-size: 5rem;
+  color: #fabb00;
+  margin-bottom: 2rem;
+}
+.cid-sKCDYTKKcf .card-wrapper {
+  padding: 3rem;
+  background: #fafafa;
+  border-radius: 4px;
+}
+@media (max-width: 992px) {
+  .cid-sKCDYTKKcf .card-wrapper {
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-sKCDYTKKcf .card-wrapper {
+    padding: 3rem 1rem;
+  }
+}
+.cid-sKCDYTKKcf .link {
+  color: #fabb00;
+}
 .cid-sKoaWIoeVh {
   padding-top: 2rem;
   padding-bottom: 2rem;
