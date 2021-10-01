@@ -15,9 +15,8 @@ body {
       flex-basis: auto;
       word-break: break-word;
       padding-left: 2rem;
-      padding-right: 0rem;
+      padding-right: 0;
     }
-    
   }
 
 input[type=date]{
