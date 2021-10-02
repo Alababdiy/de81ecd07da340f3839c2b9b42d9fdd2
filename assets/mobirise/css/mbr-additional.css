@@ -15,6 +15,7 @@ body {
 button {
   background-color: transparent;
   border-color: transparent;
+  border-radius: 0px;
 }
 
 section,
@@ -266,6 +267,7 @@ iframe {
 }
 
 .btn {
+  border-radius: 0px;  
   font-weight: 600;
   border-width: 1px;
   font-style: normal;
@@ -2180,6 +2182,7 @@ body {
 button {
   background-color: transparent;
   border-color: transparent;
+  border-radius: 0px;
 }
 
 section,
@@ -2431,6 +2434,7 @@ iframe {
 }
 
 .btn {
+  border-radius: 0px;  
   font-weight: 600;
   border-width: 1px;
   font-style: normal;
@@ -3105,8 +3109,6 @@ blockquote {
 .dropdown-menu:hover {
   display: block;
 }.cid-sKoVlZY75F {
-  padding-top: 15rem;
-  padding-bottom: 12rem;
   background-image: url("../../../assets/images/wave-1440x500.png");
 }
 .cid-sKoVlZY75F .mbr-section-title {
@@ -3117,6 +3119,9 @@ blockquote {
 .cid-sKoVlZY75F .mbr-section-btn {
   color: #000000;
   text-align: right;
+}
+.cid-sKoVlZY75F .btn.btn-lg {
+  border-radius: 25px;
 }
 .cid-sKEXHZNgJh {
   padding-top: 6rem;
@@ -3684,6 +3689,7 @@ body {
 button {
   background-color: transparent;
   border-color: transparent;
+  border-radius: 0px;
 }
 
 section,
@@ -3935,6 +3941,7 @@ iframe {
 }
 
 .btn {
+  border-radius: 0px;  
   font-weight: 600;
   border-width: 1px;
   font-style: normal;
