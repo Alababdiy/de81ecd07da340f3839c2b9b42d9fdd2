@@ -19,9 +19,10 @@ body {
     }
   }
 
-input[type=date]{
-  font-size: 14px;
+input[type=date],select.form-control{
+  font-size: 15px;
 }
+
 
 .form-check-input:checked {
     border-color: #fabb00;

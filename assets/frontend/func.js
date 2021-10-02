@@ -86,3 +86,13 @@ function response_handler(data) {
     
     return res
 }
+function changeInputType(oldObject, oType) {
+    var newObject = document.createElement('input');
+    newObject.type = oType;
+    // if(oldObject.placeholder) newObject.placeholder = oldObject.placeholder;
+    if(oldObject.name) newObject.name = oldObject.name;
+    if(oldObject.id) newObject.id = oldObject.id;
+    if(oldObject.className) newObject.className = oldObject.className;
+    oldObject.parentNode.replaceChild(newObject,oldObject);
+    return newObject;
+}

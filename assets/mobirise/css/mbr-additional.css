@@ -2072,7 +2072,7 @@ a {
 @media (min-width: 992px) {
   .cid-sKo9ksrnu0 form.mbr-form {
     padding: 3rem 2rem;
-    width: 50%;
+    width: 80%;
   }
 }
 @media (max-width: 991px) {
@@ -2086,6 +2086,13 @@ a {
 }
 .cid-sKo9ksrnu0 form.mbr-form .mbr-section-btn .btn {
   width: 100%;
+}
+.cid-sKo9ksrnu0 label {
+  display: none;
+  font-size: 1rem;
+}
+.cid-sKo9ksrnu0 label.showed_label {
+  display: block;
 }
 .cid-sKoaWIoeVh {
   padding-top: 2rem;
@@ -3135,7 +3142,7 @@ blockquote {
 .cid-sKtkL6uJbs {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #ffffff;
+  background-color: #fafafa;
 }
 .cid-sKtkL6uJbs .number-wrap {
   color: #bbbbbb;
