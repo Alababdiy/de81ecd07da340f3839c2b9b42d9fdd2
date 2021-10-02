@@ -15,7 +15,6 @@ body {
 button {
   background-color: transparent;
   border-color: transparent;
-  border-radius: 0px;
 }
 
 section,
@@ -266,8 +265,7 @@ iframe {
   font-size: 0;
 }
 
-.btn {
-  border-radius: 0px;  
+.btn { 
   font-weight: 600;
   border-width: 1px;
   font-style: normal;
@@ -2182,7 +2180,6 @@ body {
 button {
   background-color: transparent;
   border-color: transparent;
-  border-radius: 0px;
 }
 
 section,
@@ -2433,8 +2430,7 @@ iframe {
   font-size: 0;
 }
 
-.btn {
-  border-radius: 0px;  
+.btn { 
   font-weight: 600;
   border-width: 1px;
   font-style: normal;
@@ -3689,7 +3685,6 @@ body {
 button {
   background-color: transparent;
   border-color: transparent;
-  border-radius: 0px;
 }
 
 section,
@@ -3940,8 +3935,7 @@ iframe {
   font-size: 0;
 }
 
-.btn {
-  border-radius: 0px;  
+.btn { 
   font-weight: 600;
   border-width: 1px;
   font-style: normal;
