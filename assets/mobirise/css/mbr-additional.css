@@ -3105,6 +3105,8 @@ blockquote {
 .dropdown-menu:hover {
   display: block;
 }.cid-sKoVlZY75F {
+  padding-top: 15rem;
+  padding-bottom: 12rem;
   background-image: url("../../../assets/images/wave-1440x500.png");
 }
 .cid-sKoVlZY75F .mbr-section-title {
@@ -3137,6 +3139,12 @@ blockquote {
     padding: 2rem;
   }
 }
+.cid-sKEXHZNgJh .mbr-text {
+  text-align: center;
+}
+.cid-sKEXHZNgJh .mbr-section-title {
+  text-align: center;
+}
 .cid-sKFyHVsx2Q {
   padding-top: 0rem;
   padding-bottom: 0rem;
@@ -3154,6 +3162,9 @@ blockquote {
   .cid-sKFyHVsx2Q .text-wrapper {
     padding: 2rem;
   }
+}
+.cid-sKFyHVsx2Q .mbr-text {
+  text-align: center;
 }
 .cid-sKFAdl0cUi {
   padding-top: 0rem;
