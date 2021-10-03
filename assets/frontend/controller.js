@@ -35,7 +35,7 @@ if (['/', '', 'index.html', 'index'].includes(page)) {
         setTimeout(function () {
             if (searchParams.get('action') === 'contact')
             document.getElementById("contacts1-t").scrollIntoView({behavior: "smooth"});
-        },100)
+        },500)
 
     });
 
