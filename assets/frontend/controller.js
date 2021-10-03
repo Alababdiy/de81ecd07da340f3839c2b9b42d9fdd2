@@ -31,12 +31,10 @@ if (['/', '', 'index.html', 'index'].includes(page)) {
 
 } else if (['about_us.html', 'about_us'].includes(page)) {
     $(function () {
-        console.log(searchParams.get('action'),searchParams.get('action') === 'contact');
         setTimeout(function () {
             if (searchParams.get('action') === 'contact')
-            document.getElementById("contacts1-t").scrollIntoView({behavior: "smooth"});
-        },500)
-
+                document.getElementById("contacts1-t").scrollIntoView({behavior: "smooth"});
+        },1000);
     });
 
 }
