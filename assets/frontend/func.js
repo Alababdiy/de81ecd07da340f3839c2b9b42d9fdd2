@@ -1,4 +1,4 @@
-
+let searchParams = new URLSearchParams(window.location.search);
 function isLocalNetwork(hostname = window.location.hostname) {
     return (
         (['localhost', '127.0.0.1', '', '::1'].includes(hostname))
