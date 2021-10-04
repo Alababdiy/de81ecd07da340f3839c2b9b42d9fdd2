@@ -5,3 +5,5 @@ project.mobirise
 .idea/
 .DS_Store
 assets/.DS_Store
+*.py
+output
