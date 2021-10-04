@@ -8,6 +8,13 @@ body {
     margin-right: 10px;
 }
 
+@media (min-width: 992px) {
+    .cid-sKo9ksrnu0 form.mbr-form {
+        padding: 3rem 2rem;
+        width: 80%;
+        height: 101%;
+    }
+}
 
 @media (max-width: 991px) {
     .cid-sKo78SGohq .navbar .navbar-brand {
